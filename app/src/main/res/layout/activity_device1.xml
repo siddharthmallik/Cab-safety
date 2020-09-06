@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    android:orientation="vertical"
+    tools:context=".Device1">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_blur_on_black_24dp">
+
+
+    </ImageView>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cab Safety"
+        android:textSize="20dp"
+        android:fontFamily="@font/abril_fatface"
+        android:textStyle="bold"
+        android:textColor="@color/white">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:text="Device-1 Status"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:fontFamily="monospace" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gradStart">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:id="@+id/txt96"
+                android:text="            Active"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:drawableStart="@drawable/ic_fiber_manual_record_black_24dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:text="Current/Last Location"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:fontFamily="monospace" />
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gradStart">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/text52"
+                android:layout_marginLeft="0dp"
+                android:text="   7QGG+H8 Ghatikia, Bhubaneswar, Odisha"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:drawableStart="@drawable/ic_location_on_black_24dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:text="Device Id"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:fontFamily="monospace" />
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gradStart">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/text53"
+                android:layout_marginLeft="0dp"
+                android:text="           RSP001"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:drawableStart="@drawable/ic_perm_device_information_black_24dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:text="Device PHN"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:fontFamily="monospace" />
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gradStart">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:text="       9040541466"
+                android:id="@+id/text54"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:drawableStart="@drawable/ic_call_black_24dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_marginTop="60dp"
+        android:layout_width="100dp"
+        android:id="@+id/btn29"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:background="@color/gradStop"
+        android:layout_gravity="center"
+        android:text="Update"
+        android:fontFamily="@font/atomic_age"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_height="40dp"></Button>
+
+    </LinearLayout>

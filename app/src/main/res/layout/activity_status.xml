@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/drawer"
+    android:orientation="vertical"
+    tools:context=".status">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/grad_bg"
+            android:layout_height="170dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ic_blur_on_black_24dp">
+
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/abril_fatface"
+                android:text="Cab Safety"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_marginTop="138dp"
+            android:layout_height="70dp"
+            app:cardCornerRadius="10dp"
+            android:layout_centerHorizontal="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/btn1"
+                        android:background="@color/transparent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/gradStop"
+                        android:textStyle="bold"
+                        android:text="Devices">
+
+                    </Button>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:background="@color/transparent"
+                        android:layout_width="match_parent"
+                        android:id="@+id/btn2"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/gradStop"
+                        android:textStyle="bold"
+
+                        android:text="History">
+
+                    </Button>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:background="@color/transparent"
+                        android:textStyle="bold"
+                        android:id="@+id/btn3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="     Track  "
+                        android:textAlignment="textEnd"
+                        android:drawableEnd="@drawable/ic_fiber_manual_record_black_24dp"
+                        android:textColor="@color/gradStop" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:paddingLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+           android:src="@drawable/ic_mail_black_24dp" >
+
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:textStyle="normal"
+            android:fontFamily="monospace"
+            android:text="cabsafety@gmail.com"
+            android:textSize="16dp"
+            android:textColor="@color/gradStop">
+
+        </TextView>
+
+    </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_phone_iphone_black_24dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="monospace"
+                android:text="+91-750-123-4567"
+                android:textSize="16dp"
+                android:textColor="@color/gradStop">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_location_city_black_24dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:textStyle="normal"
+                android:text="Bhubaneswar"
+                android:fontFamily="monospace"
+                android:textSize="16dp"
+                android:textColor="@color/gradStop">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_pages_black_24dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:textStyle="normal"
+                android:fontFamily="monospace"
+                android:text="http://www.cabsafety.co.in/"
+                android:textSize="16dp"
+                android:textColor="@color/gradStop">
+
+            </TextView>
+
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="130dp"
+            android:text="Log Out"
+            android:id="@+id/btn6"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+        </Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>

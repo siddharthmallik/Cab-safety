@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    android:orientation="vertical"
+    tools:context=".Devices">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_blur_on_black_24dp">
+
+
+    </ImageView>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cab Safety"
+        android:textSize="20dp"
+        android:fontFamily="@font/abril_fatface"
+        android:textStyle="bold"
+        android:textColor="@color/white">
+
+    </TextView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_marginTop="60dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="@dimen/cardview_compat_inset_shadow"
+        android:background="@drawable/grad_bg"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/btn9"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/grad_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DEVICE 1"
+            android:textColor="@color/white"
+            >
+
+        </Button>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_marginTop="75dp"
+                android:layout_height="100dp"
+                app:cardCornerRadius="10dp"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:layout_marginTop="3dp"
+                    android:id="@+id/btn8"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/grad_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="DEVICE 2"
+                    android:textColor="@color/white"
+                    >
+
+                </Button>
+
+            </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_marginTop="75dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="10dp"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="3dp"
+            android:id="@+id/btn7"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/grad_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DEVICE 3"
+            android:textColor="@color/white"
+            >
+
+        </Button>
+
+    </androidx.cardview.widget.CardView>
+        </LinearLayout>
+

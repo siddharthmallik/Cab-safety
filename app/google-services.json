@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1091378436286",
+    "firebase_url": "https://cab-safety-a5061.firebaseio.com",
+    "project_id": "cab-safety-a5061",
+    "storage_bucket": "cab-safety-a5061.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091378436286:android:db260cbd4f55d7afdba6ef",
+        "android_client_info": {
+          "package_name": "com.example.cabsafety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091378436286-0q8m1i8snjpkhvq68ep4i0kujvs3vhv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cabsafety",
+            "certificate_hash": "0a07201421c5fefde4a5666461f63895968f7d24"
+          }
+        },
+        {
+          "client_id": "1091378436286-69evut4jc24ap5u9t884m5kcvon2j0i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-k6ZnvwigTmHltGoQGzxK2FHSTYLjVa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091378436286-69evut4jc24ap5u9t884m5kcvon2j0i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
